@@ -1,0 +1,238 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* 头 */
+.head{
+	height: 173px;
+	background-color: #eeeeef;
+}
+.logo{
+	text-align: center;
+	height: 125px;
+}
+.logo img{
+	margin-top: 30px;
+}
+.dao{
+	width: 670px;
+	height: 45px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 23px;
+}
+.dao li{
+	float: left;
+	height: 45px;
+	padding: 0 26px;
+	line-height: 45px;
+	background: url(../images/leng.png) no-repeat right center;
+}
+.dao li a{
+	display: block;
+	height: 42px;
+	border-bottom: 3px solid #1e50ae;
+}
+.dao li:last-child{
+	background:none;
+}
+/* 图 */
+.banner{
+	height: 408px;
+	background:url(../images/banner.png) no-repeat  center center;
+}
+/* 服务 */
+.serve{
+	height: 809px;
+	margin: 0 auto;
+}
+.zhong{
+	width: 1200px;
+	height: 809px;
+	margin: 0 auto;
+}
+.content>p{
+	font-family: '[Aparajita]';
+	font-size: 31.45px;
+	margin-top: 25px;
+	text-align: center;
+}
+.content>h2{
+	font-family: '微软雅黑';
+	margin-top: 63px;
+	font-size: 34px;
+	text-align: center;
+}
+.zhong .do{
+	height: 400px;
+	width: 300px;
+	float: left;
+}
+.zhong .do img{
+	margin: 44px 80px;
+}
+.zhong .do h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 15px; 
+}
+.zhong .do ul li{
+	margin-left: 130px;
+	list-style-image:url(../images/dian.png) ;
+}
+.zhong .mo{
+	height: 250px;
+	width: 300px;
+	float: left;
+}
+
+.zhong .mo img{
+	margin: 11px 80px;
+}
+.zhong .mo h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 15px; 
+}
+/* 解决 */
+.solution{
+	height: 710px;
+	background-image: url('../images/bac.png');
+}
+.solution .zhong{
+	height: 710px;
+}
+.solution .zhong div{
+	float: left;
+	width: 230px;
+	height: 298px;
+	margin-right: 52px;
+	margin-top: 100px;
+}
+.solution .zhong .d1{
+	width: 60px;
+	margin-right: 0;
+	margin-top: 200px;
+}
+.solution .zhong .d2{
+	margin-right: 0;
+}
+.solution .zhong .d3{
+	width: 60px;
+	margin-right: 0;
+	margin-top: 200px;
+	text-align: right;
+}
+.solution .zhong button{
+	display: block;
+	margin: 0 auto;
+	padding: 10px 30px;
+	border: 4px solid #fff;
+	font-size: 20px;
+	border-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.0)
+}
+/* 解决方案 结束*/
+/* 最新资讯开始 */
+.lat{
+	height: 1003px;
+}
+.lat .zhong div{
+	float: left;
+	height: 350px;
+	width: 600px;
+}
+.lat .zhong .a1{
+	background: url('../images/woniu.png') no-repeat center center;
+}
+.lat .zhong .a2 h4{
+	font-family: '微软雅黑';
+	margin-left: 25px;
+	margin-top: 50px;
+	font-size: 22px;
+}
+.lat .zhong .a2 p{
+	font-family: '[Aparajita]';
+	font-size: 18px;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.lat .zhong .a2 .duan{
+	font-size: 14px;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.lat .zhong .a2 button{
+	display: block;
+	margin: 25px 0 0 25px;
+	padding: 10px 30px;
+	border: 1px solid #5e75b8;
+	font-size: 16px;
+	border-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.0)
+}
+.lat .zhong .a3 p{
+	font-size: 14px;
+	margin: 35px 0 0 76px;
+}
+.lat .zhong .a4 {
+	margin-top: 80px;
+	width: 600px;
+	height: 110px;
+}
+.lat .zhong .a4 div{
+	width: 300px;
+	height: 110px;
+}
+.lat .zhong .a4 img{
+	margin: 30px 30px 0 40px;
+	float: left;
+}
+.lat .zhong .a4 h3{
+	font-size: 19px;
+	margin-left: 23px;
+	margin-top: 30px;
+}
+/* 最新资讯结束 */
+/* 底部开始 */
+.hou{
+	height: 215px;
+	background-color: #323232;
+}
+.hou .zhong div{
+	float: left;
+	margin-top:56px;
+	width: 150px;
+	height: 210px;
+}
+.hou .zhong .zu{
+	margin:0 0;
+	width: 260px;
+	height: 200px;
+}
+ .hang img{
+	height: 170px;
+	width: 1683px;
+	margin-top: 0;
+} 
+/* .hang{
+	height: 70px;
+	background-color: #323232;
+}
+ .hang .da{
+	color: #fff;
+	width: 740px;
+	height: 23px;
+	background-color: #323232;
+}
+.hang .da li{
+	float: left;
+	height: 22px;
+	line-height: 22px;
+}   */
