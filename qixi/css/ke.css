@@ -1,0 +1,17 @@
+*{
+	margin: 0 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: url('../pic/yuan.jpg') no-repeat center center;
+}
+div{
+	width: 1200px;
+	margin: 0 auto;
+}
+.ke{
+	margin-left: 350px;
+	font-size: 500px;
+}
